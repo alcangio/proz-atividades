@@ -1,4 +1,3 @@
-from art import logo
 def calculadora(numero1, numero2, operacao):
     '''Função calculadora que os números e as operações serão feitas pelo usuário.
     O código deve ficar rodando infinitamente até que o usuário escolha a opção de sair.'''
@@ -15,7 +14,7 @@ def calculadora(numero1, numero2, operacao):
 
 calc_ligada = True
 while calc_ligada:
-    print(logo)
+    print("CALCULADORA 2.0")
     operacao = int(input("1: Soma\n2: Subtração\n3: Multiplicação\n4: Divisão\n0: Sair\n\nDigite o número correspondente à opção desejada: "))
     if operacao == 0:
         calc_ligada = False
